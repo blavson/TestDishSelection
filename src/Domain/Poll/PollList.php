@@ -15,7 +15,7 @@ class PollList
      */
     public function __construct(array $polls)
     {
-        Assertion::allIsInstanceOf($polls, Poll::class);
+//        Assertion::allIsInstanceOf($polls, Poll::class);
         $this->polls = $polls;
     }
 

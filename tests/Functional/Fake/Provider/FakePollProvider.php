@@ -20,6 +20,7 @@ class FakePollProvider implements PollProviderInterface
     }
 
     public function getPoll(int $pollId): Poll
+
     {
         return $this->poll;
     }
